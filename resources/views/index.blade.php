@@ -20,7 +20,11 @@
 <!-- Styles -->
 
 <link href="{{asset('front/css/style.css')}}" rel="stylesheet" media="screen">
-
+<style>
+  .c{
+    color: #f5fefd;
+  }
+</style>
 </head>
 <body>
   <div class="layout">
@@ -160,7 +164,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 8;"><a href="{{ url('storage/user/'.$data->cv) }}" target="_blank" class="btn btn-hvr-white hvr-pulse-grow">See my CV</a>
+              style="z-index: 8;"><a href="{{ url('front/CV-Virgiawan.pdf') }}" target="_blank" class="btn btn-hvr-white hvr-pulse-grow">See my CV</a>
             </div>
           </li>
 
